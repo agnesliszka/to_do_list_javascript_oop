@@ -3,14 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title>To Do List - JavaScript - Object Oriented Programming</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div>
-		<input type="text" data-input="new_task">
-		<ul data-list="new_task">
+	<br>
+	<div class="container">
+		<div class="d-flex justify-content-center">
+			<h1>To add new task to the list input task name and press enter.</h1>
+		</div>
+		<input type="text" class="form-control" data-input="new_task">
+		<br>
+		<ul class="list-group" data-list="new_task"> 
 		</ul>
 	</div>
-<script src="main_constructor.js"></script>
-<!-- <script src="main_class.js"></script> -->
+<!-- <script src="main_constructor.js"></script> -->
+<script src="main_class.js"></script>
 </body>
 </html>

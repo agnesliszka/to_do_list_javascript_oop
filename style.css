@@ -1,0 +1,12 @@
+body{
+    background-image: url("images/background.jpg");
+}
+
+.justify-content-center{
+    background-color: rgb(224, 218, 218);
+}
+
+h1{
+    font-size: 32px;
+}
+
